@@ -1,0 +1,161 @@
+.promo-item {
+    padding-bottom: 0px;
+    padding-top: 3px;
+    padding-left: 0px;
+    width: 47vw;
+}
+
+.promo-item-photo {
+    position: relative;
+    width: 47vw;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promo-item-name-and-description {
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    width: 100%;
+}
+
+.promo-item-name {
+    font-family: system-ui;
+    text-align: center;
+    font-size: 13px;
+    color: #71757a;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.promo-item-price {
+    font-family: system-ui;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 3px;
+}
+
+.image {
+    border-radius: 5px;
+}
+
+.item-wrap {
+    float: left;
+    width: 50%;
+}
+
+.item-wrap .NewPane--android {
+    padding-top: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 0;
+    width: fit-content;
+}
+
+.item-wrap .NewPane--ios {
+    padding-top: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 0px;
+    border-width: 0px;
+    width: 47vw;
+}
+
+.list-container-promo {
+    position: initial;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: -webkit-box;
+}
+
+.items-container {
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icon-add-small {
+    margin-top: 0px;
+    float: left;
+}
+
+.icon-done-small {
+    margin-top: 0px;
+    float: left;
+}
+
+.icon-done-small-wrap {
+    display: none;
+}
+
+.pane-element .Button--vk-rich {
+    height: 37px;
+    line-height: 10px;
+}
+
+.cart-button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart-button-container {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+}
+
+.bottom-block {
+    height: 100px;
+    background-color: white;
+    display: inline;
+}
+
+.discount-promo {
+    width: 47vw;
+    height: 10vw;
+    position: absolute;
+    opacity: 0.6;
+    background-color: #5181b8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    display: table;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.discount-promo-text {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 6vw;
+    font-family: system-ui;
+    font-weight: 500;
+}
+
+.promo-item-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}

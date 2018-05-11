@@ -1,0 +1,96 @@
+.list-container-promo-info {
+    padding-top: 15px;
+    width: 100%;
+    min-height: calc(100vh - 55px);
+    background-color: white;
+}
+
+.promo {
+    display: block;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.promo-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92vw;
+    height: 92vw;
+    border-radius: 5px;
+}
+
+.promo-title {
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.promo-until {
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.promo-description {
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    line-height: 1.38;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    background: green;
+    font-family: system-ui;
+    font-weight: 500;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+.discount-promo-info {
+    width: 92vw;
+    height: 20vw;
+    position: absolute;
+    opacity: 0.6;
+    background-color: #5181b8;
+    top: calc(15px + 72vw);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    left: 1px;
+    right: 0;
+}
+
+.discount-promo-info-text {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 15vw;
+    font-family: system-ui;
+    font-weight: 500;
+}
+
+.discount-promo-container {
+    width: 100vw;
+}

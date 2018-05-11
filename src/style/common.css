@@ -1,0 +1,17 @@
+.view-header {
+    background-color: #5181b8;
+    line-height: 1;
+    text-align: center;
+    color: white;
+}
+
+.hint {
+    background-color: #EBEDF0;
+    width: 100%;
+    text-align: center;
+    padding-top: 60%;
+    font-family: system-ui;
+    color: #71757a;
+    font-size: 18px;
+    line-height: 1.5;
+}

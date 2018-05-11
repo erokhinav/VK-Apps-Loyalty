@@ -1,0 +1,34 @@
+.footer {
+    height: 40px;
+    background-color: #FBFBFC;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.icon-container {
+    float: left;
+    width: 50%;
+}
+
+.back-icon {
+    margin: auto;
+    margin-top: 5px;
+}
+
+.star-icon {
+    margin: auto;
+    margin-top: 7px;
+}
+
+.none {
+    display: none;
+}
+
+.bottom-compensator {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}

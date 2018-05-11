@@ -1,0 +1,207 @@
+.main-header {
+    background-color: #5181b8;
+    line-height: 1.3;
+}
+
+.font {
+    font-family: sans-serif;
+}
+
+.overall-points-header {
+    color: #cbdcef;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.points-header {
+    color: white;
+    font-size: 47px;
+    font-weight: 200;
+}
+
+.discount-header {
+    color: #cbdcef;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.center {
+    display: inline-block;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.bottom-header-text {
+    color: #5181b8;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.bottom-header-icon {
+    float: left;
+    margin-top: 2px;
+    padding-right: 5px;
+}
+
+.container {
+    width: 100%;
+}
+
+.points-button {
+    float: left;
+    width: 50%;
+}
+
+.card-button {
+    float: right;
+    width: 49%;
+}
+
+.center-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-line {
+    border-left: 1px solid #ccced1;
+    height: 25px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.promo-title-main {
+    color: #2c2d2e;
+    float: left;
+}
+
+.promo-count {
+    float: right;
+    margin-left: 6px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.image {
+    border-radius: 5px;
+}
+
+.image-container {
+    margin: 0 auto;
+    width: 126px;
+}
+
+.promo-group {
+    background-color: white;
+    line-height: 1.4;
+}
+
+.promo-item-title {
+    font-family: system-ui;
+    font-size: 12.5px;
+    color: #71757a;
+    font-weight: 600;
+    line-height: 1.5;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.promo-item-value-main {
+    font-family: system-ui;
+    font-size: 13px;
+    color: black;
+    font-weight: 600;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.history-group {
+    background-color: white;
+}
+
+.history-title {
+    color: #71757a;
+}
+
+.bottomHeaderWrapper .NewPane--ios {
+    padding-top: 7px;
+    padding-bottom: 9px;
+    padding-left: 2px;
+    padding-right: 2px;
+    line-height: 1.00;
+}
+
+.bottomHeaderWrapper .NewPane--android {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 2px;
+    padding-right: 2px;
+    line-height: 1.00;
+}
+
+.all-items {
+    margin-top: 0px;
+}
+
+.icon-help {
+    float: left;
+}
+
+.icon-place {
+    float: right;
+}
+
+.main-header-container {
+    width: 100%;
+    text-align: center;
+}
+
+.earn-points {
+    margin-top: 13px;
+    background-color: #739AC6;
+    border-radius: 20px;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 180px;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discount {
+    width: 125px;
+    height: 30px;
+    position: absolute;
+    opacity: 0.6;
+    background-color: #5181b8;
+    bottom: 32px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    display: table;
+}
+
+.discount-text {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 18px;
+    font-family: system-ui;
+    font-weight: 500;
+}
+
+.main-container .Group--android {
+    margin-bottom: 0;
+}
+
+.main-container .Group--ios {
+    margin-bottom: 0;
+}

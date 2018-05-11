@@ -1,0 +1,95 @@
+.history-item {
+    padding-bottom: 0px;
+    padding-top: 3px;
+    padding-left: 0px;
+}
+
+.history-item-photo {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+.history-item-name-and-description {
+    display: inline-block;
+    position: absolute;
+    width: calc(100% - 60px);
+    top: -8px;
+}
+
+.history-item-name {
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    margin-left: 12px;
+    margin-top: 15px;
+    overflow: hidden;
+    max-width: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.history-item-description {
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 400;
+    color: #afafaf;
+    margin-left: 12px;
+    overflow: hidden;
+    max-width: calc(100% - 120px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.history-item-points {
+    font-family: system-ui;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    float: right;
+    position: absolute;
+    top: 24px;
+    right: 17px;
+    color: #5181b8;
+}
+
+.image {
+    border-radius: 5px; /* Уголки */
+}
+
+.List--ios::before, .List--ios::after {
+    height: 0px;
+}
+
+.List--android::before, .List--android::after {
+    height: 0px;
+}
+
+.history-list-item .ListItem--ios .ListItem__before::before {
+    margin-left: 73px;
+}
+
+.history-list-item .ListItem--ios .ListItem__in {
+    padding-left: 12px;
+}
+
+.history-list-item .ListItem--android .ListItem__in {
+    padding-left: 15px;
+}
+
+.history-list-item .ListItem--ios .ListItem__main {
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.history-list-item .ListItem--android .ListItem__main {
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.list-container-history {
+    background-color: white;
+    height: auto;
+    width: 100%;
+}

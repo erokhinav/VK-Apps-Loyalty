@@ -1,0 +1,202 @@
+.list-container-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.item {
+    display: block;
+    margin-top: 15px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.item-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    border-radius: 5px;
+}
+
+.item-title {
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.item-points {
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    color: #5181b8;
+}
+
+hr {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: block;
+    border: 0;
+    border-top: 1px solid #D3D5D8;
+    padding: 0;
+    background-color: #D3D5D8;
+    color: #D3D5D8;
+}
+
+.items-count-input {
+    text-align: center;
+    font-family: system-ui;
+    color: #999999;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F5F5F5;
+    width: 40px;
+    height: 35px;
+    margin: 0 auto;
+    float: left;
+    font-size: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #F5F5F5;
+    font-weight: 200;
+}
+
+.items-counter {
+    float: left;
+    text-align: center;
+}
+
+.add-to-cart-button {
+    width: 140px;
+    margin-left: 15px;
+}
+
+.add-to-cart-button-text {
+    font-size: 16px;
+}
+
+.cart-container {
+    width: 275px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart {
+    width: 335px;
+    margin: 0 auto;
+}
+
+.horizontal-line {
+    margin-top: 20px;
+}
+
+.minus-button {
+    float: left;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: sans-serif;
+    background-color: #F5F5F5;
+    color: #999999;
+    border-right: 1px solid #E8E8E8;
+    height: 45px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 0px;
+}
+.plus-button {
+    float: right;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: sans-serif;
+    background-color: #F5F5F5;
+    color: #999999;
+    border-left: 1px solid #E8E8E8;
+    height: 45px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0px;
+}
+
+.minus-button-text {
+    width: 20px;
+    margin: 0 auto;
+}
+
+.icon-add {
+    margin-top: 10px;
+    float: left;
+}
+
+.icon-done {
+    margin-top: 10px;
+    float: left;
+}
+
+.icon-done-wrap {
+    display: none;
+}
+
+.cart-button-item {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart-button-container-item {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.item-info {
+    font-family: system-ui;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.item-price::before {
+    font-family: system-ui;
+    content: 'Цена: ';
+    font-weight: 600;
+}
+
+.item-date::before {
+    font-family: system-ui;
+    content: 'Дата покупки: ';
+    font-weight: 600;
+}
+
+.item-shop::before {
+    font-family: system-ui;
+    content: 'Адрес магазина: ';
+    font-weight: 600;
+}
+
+.item-description::before {
+    font-family: system-ui;
+    content: 'Описание: ';
+    font-weight: 600;
+}

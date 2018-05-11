@@ -1,0 +1,39 @@
+.y-map {
+    height: 400px;
+    width: 100%;
+}
+
+.shop-list .Group--ios {
+    margin-top: 0px;
+}
+
+.shop-name {
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 17px;
+    float: left;
+}
+
+.shop-dist {
+    float: right;
+}
+
+.shop-address {
+    font-family: system-ui;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90vw;
+}
+
+.shop-name-dist {
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 18px;
+    height: 15px;
+    margin-bottom: 20px;
+    width: 98%;
+}
